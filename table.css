@@ -1,0 +1,26 @@
+.studentTable{
+     margin-left: 180px;
+    border: 1px solid greenyellow;
+    
+}
+
+th{
+    color: white;
+}
+
+.heading{
+    background-color: rgb(178, 243, 114);
+}
+
+td{
+    width: 220px;
+     padding-bottom: 5px;
+}
+
+#imageDiv{
+    background-color: rgb(135, 135, 151);
+    height: 120px;
+    width: 100px;
+    margin-left: 50px;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Enrollment Form</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <script src="logic.js"></script>
+    <header>
+        <h2 style="color:white;margin-top: 0;">
+            Student Enrollment Form
+        </h2>
+    </header>
+
+<div class="row" style="background-color: rgb(255, 255, 255);">
+
+    <div class="inputArea">
+        <table>
+            <tr><td>Name:</td><td><input type="text" name="inputName" id="inputName"><td</tr>
+            <tr><td>Email:</td><td><input type="text" name="inputemail" id="inputEmail"><td</tr>
+            <tr><td>Website:</td><td><input type="text" name="inputWebsite" id="inputWebsite"><td</tr>
+            <tr><td>Image Link:</td><td><input type="text" name="inputImage" id="inputImage"><td</tr>
+            <tr><td>Gender:</td><td><input type="radio" id="inputMale">Male<br><input type="radio" id="inputFemale">Female</td></tr>
+            <tr><td>Skills:</td><td><input type="checkbox">JAVA&nbsp;<input type="checkbox">HTML&nbsp;<input type="checkbox">CSS</td></tr>
+        </table>      
+        <div>
+            <button type="submit" onclick="submitForm()">Enroll Student</button>
+            <button type="reset" onclick="clearForm()">Clear</button>
+        </div>
+     </div>
+
+     <div id="displayArea"><h3 style="text-align: center;">Enrolled Students</h3></div>
+
+</div>
+
+</body>
+</html>
